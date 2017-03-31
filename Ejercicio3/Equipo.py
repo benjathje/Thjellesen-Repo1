@@ -18,12 +18,8 @@ class Equipo(object):
     def setCapitan(self, n):
         self.Capitan = (n)
 
-    def setDisponibilidad (self, dia, turno):
-        i = 0;
-        if turno == "M":
-            i = 1
-        if turno == "T":
-            i = 2
-        if turno == "N":
-            i = 3
-        self.Disponibilidad [dia-1] [i-1] = True
+    def setDisponibilidad (self, Disponibilidad):
+        self.Disponibilidad = Disponibilidad
+
+    def modDisponibilidad (self, dia, turno, activo):
+        self.Disponibilidad[dia][turno] = activo

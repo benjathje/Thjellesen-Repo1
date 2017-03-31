@@ -16,3 +16,4 @@ class Partido(object):
 
     def setEquipo_2(self, n):
         self.Equipo_2 = n
+
