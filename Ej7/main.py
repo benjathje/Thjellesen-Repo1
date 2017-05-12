@@ -28,3 +28,5 @@ while (true)
         Student1 = Student ()
         Input = str (input("INPUT STUDENT NAME:\n"))
         Student1.setName(Input)
+
+        tecla = str(input("ESCRIBA EL APELLIDO DEL ALUMNO: "))
