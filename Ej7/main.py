@@ -96,5 +96,3 @@ while (true)
 
         Orders.append(Order1)
 
-    elif (Input == '5'):
-
