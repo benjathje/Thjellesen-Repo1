@@ -97,5 +97,5 @@ while (true)
         Orders.append(Order1)
 
     elif (Input == '5'):
-        while (true):
+        while (True):
             Input = input ("EDIT STUDENT")
